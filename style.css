@@ -1,0 +1,45 @@
+#visor-claro, #visor-claro GtkBox {
+    background-color: #f6f6f6;
+    color: #222;
+}
+#visor-oscuro, #visor-oscuro GtkBox {
+    background-color: #222;
+    color: #f6f6f6;
+}
+#visor-claro {
+    background-color: #f6f6f6;
+    color: #222;
+}
+#visor-oscuro {
+    background-color: #222;
+    color: #f6f6f6;
+}
+#dockbar {
+    background-color: rgba(40, 40, 40, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.2);
+    padding: 3px 5px;
+}
+#dockbar GtkButton {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin: 0 2px;
+    min-width: 20px;
+    min-height: 20px;
+    transition: all 120ms ease;
+}
+#dockbar GtkButton:hover {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    min-width: 26px;
+    min-height: 26px;
+}
+#dockbar GtkImage {
+    min-width: 16px;
+    min-height: 16px;
+}
